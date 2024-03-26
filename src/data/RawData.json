@@ -1,0 +1,134 @@
+{
+  "rawData": {
+    "reporting": {
+      "categories": [
+        1,
+        7,
+        30
+      ],
+      "data": [
+        20,
+        30,
+        50
+      ],
+      "text": "reporting/1/7/30 days"
+    },
+    "inTheft": {
+      "intheft": [
+        20,
+        30,
+        22
+      ],
+      "date": [
+        "11-3-24",
+        "12-3-24",
+        "13-03-24"
+      ],
+      "text": "in theft/date"
+    },
+    "motor": {
+      "motors": [
+        20,
+        33,
+        55,
+        66,
+        66
+      ],
+      "customer": [
+        "cust_1",
+        "cust_2",
+        "cust_3",
+        "cust_4",
+        "cust_5"
+      ],
+      "text": "device/customer"
+    },
+    "devices": {
+      "new": [
+        10,
+        20,
+        30
+      ],
+      "installed": [
+        11,
+        20,
+        30
+      ],
+      "active": [
+        9,
+        17,
+        29
+      ],
+      "total": [
+        10,
+        20,
+        30
+      ],
+      "text": "new/installed/active/total devices",
+      "date": [
+        "11-3-24",
+        "12-3-24",
+        "13-03-24"
+      ]
+    },
+    "vehicle": {
+      "vehicles": [
+        50,
+        30,
+        40
+      ],
+      "customer": [
+        "cust_1",
+        "cust_2",
+        "cust_3"
+      ],
+      "text": "vehical/customer"
+    },
+    "device_health": {
+      "battery": [
+        10,
+        22,
+        30
+      ],
+      "text": "device battery",
+      "dates": [
+        "12/3/24",
+        "13/3/24",
+        "14/3/24"
+      ]
+    },
+    "vehicle_health": {
+      "battery": [
+        10,
+        22,
+        30
+      ],
+      "dates": [
+        "12/3/24",
+        "13/3/24",
+        "14/3/24"
+      ],
+      "text": "Vehical Battery"
+    },
+    "other": {
+      "battery": [
+        10,
+        22,
+        30
+      ],
+      "dates": [
+        "12/3/24",
+        "13/3/24",
+        "14/3/24"
+      ],
+      "text": "other Battery"
+    },
+    "Details":{
+      "Device_id":"98254263",
+      "Vehical_id":"xx123",
+      "SN":"8473526",
+      "IMEI":"982346582"
+    }
+
+  }
+}
