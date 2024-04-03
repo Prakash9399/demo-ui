@@ -23,6 +23,7 @@ const AreaSingle = (props) => {
         style: {
           fontSize: "14px",
           color: "#FFFFFF",
+          fontWeight: 'normal',
         },
       },
     },

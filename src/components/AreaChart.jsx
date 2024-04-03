@@ -34,6 +34,7 @@ const AreaChart = (props) => {
           style: {
             fontSize: "14px",
             color: "#FFFFFF",
+            fontWeight: 'normal',
           },
         },
       },

@@ -35,6 +35,7 @@ const Linegraph = (props) => {
         style: {
           fontSize: "14px",
           color:"#FFFFFF",
+          fontWeight: 'normal',
         },
       },
     },

@@ -1,34 +1,52 @@
 import React from "react";
-
+import { NavLink} from 'react-router-dom'
 const Navbar = () => {
   return (
     <>
       <div className="text-white rounded-2xl mt-1 flex justify-center">
         <ul className="flex gap-x-35 pt-2 pb-2  text-xl ">
+        <li>
+            <NavLink to="/home" 
+             className={({isActive}) =>
+             ` hover:text-gray-300 m-4 ${isActive ? " text-white" : "text-gray-500"}`
+         } >
+              Home
+            </NavLink>
+          </li>
           <li>
-            <a href="#" className="text-white hover:text-gray-300 m-4">
+            <NavLink to="/intheft"    className={({isActive}) =>
+             ` hover:text-gray-300 m-4 ${isActive ? " text-white" : "text-gray-500"}`
+         }>
               InTheft
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a href="#" className="text-white hover:text-gray-300 m-4">
+            <NavLink to="/devices"    className={({isActive}) =>
+             ` hover:text-gray-300 m-4 ${isActive ? " text-white" : "text-gray-500"}`
+         }>
               Devices
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a href="#" className="text-white hover:text-gray-300 m-4">
+            <NavLink to="/vehicle"    className={({isActive}) =>
+             ` hover:text-gray-300 m-4 ${isActive ? " text-white" : "text-gray-500"}`
+         }>
               Vehicles
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a href="#" className="text-white hover:text-gray-300 m-4 ">
+            <NavLink to="/mycustomer"    className={({isActive}) =>
+             ` hover:text-gray-300 m-4 ${isActive ? " text-white" : "text-gray-500"}`
+         }>
               My Customers
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a href="#" className="text-white hover:text-gray-300 m-4">
+            <NavLink to="/profile"    className={({isActive}) =>
+             ` hover:text-gray-300 m-4 ${isActive ? " text-white" : "text-gray-500"}`
+         }>
               Profile
-            </a>
+            </NavLink>
           </li>
         </ul>
       </div>

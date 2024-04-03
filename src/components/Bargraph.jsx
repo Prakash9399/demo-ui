@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Chart from "react-apexcharts";
 
 const Bargraph = (props) => {
@@ -32,6 +32,7 @@ const Bargraph = (props) => {
         style: {
           fontSize: "14px",
           color: "#FFFFFF",
+          fontWeight: 'normal',
         },
       },
       labels: {
@@ -57,13 +58,18 @@ const Bargraph = (props) => {
         },
       },
     },
+   // colors: ['#9370DB'],
+    
   };
+
   const series = [
     {
       name: props.text,
       data: props.data,
+      //colors: ['#9370DB']
     },
   ];
+  
 
   return (
     <>
