@@ -3,8 +3,8 @@ import { NavLink} from 'react-router-dom'
 const Navbar = () => {
   return (
     <>
-      <div className="text-white rounded-2xl mt-1 flex justify-center">
-        <ul className="flex gap-x-35 pt-2 pb-2  text-xl ">
+      <div className="text-white p-1 flex justify-center">
+        <ul className="flex gap-x-35 pt-2 pb-2  text-2xl  ">
         <li>
             <NavLink to="/home" 
              className={({isActive}) =>
@@ -46,6 +46,15 @@ const Navbar = () => {
              ` hover:text-gray-300 m-4 ${isActive ? " text-white" : "text-gray-500"}`
          }>
               Profile
+            </NavLink>
+          </li>
+
+          <li>
+            <NavLink to="/login"    className={({isActive}) =>
+             ` hover:text-gray-300 m-4 ${isActive ? " text-white" : "text-gray-500"}`
+         }>
+              {/* <img src="src\data\account.svg" alt=""  className=" text-white"/> */}
+              Login
             </NavLink>
           </li>
         </ul>

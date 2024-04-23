@@ -24,8 +24,8 @@ function Home() {
     }, []);
     return (
       <>
-        {/* <Navbar /> */}
-        <div className=" flex justify-evenly p-5 m-5">
+        <div >
+        <div className=" flex justify-evenly p-5   ">
           <div className="w-60 h-32 border-2 border-purple-600 rounded ml-2">
             {Data && (
               <Bargraph
@@ -111,6 +111,7 @@ function Home() {
           <div className="h-32 w-64 m-4  rounded-xl bg-cyan-950 ">
             {Data && (<Card details={Data.Details}/>)}
           </div>
+        </div>
         </div>
       </>
     );

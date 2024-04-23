@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
+
 import './index.css'
 import Layout from './Layout.jsx'
 import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom'
@@ -10,6 +10,7 @@ import Devices from './components/Navcomponents/Devices.jsx'
 import Vehicle from './components/Navcomponents/Vehicle.jsx'
 import Mycustomer from './components/Navcomponents/Mycustomer.jsx'
 import Home from './Home.jsx'
+import Login from './components/Navcomponents/Login.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -20,6 +21,7 @@ const router = createBrowserRouter(
       <Route path='profile' element={<Profile />} />
       <Route path='vehicle' element={<Vehicle />} />
       <Route path='mycustomer' element={<Mycustomer />} />
+      <Route path='login' element={<Login />} />
     </Route>
   )
 )
